@@ -1,0 +1,21 @@
+%hr
+%footer
+  .container
+    .row
+      .col-md-4
+        Copyright
+        = Time.now.year
+        CoursePlatform Sp. z 0.0
+        .row
+        .fa.fa-envelope
+        = mail_to "elianbraja@gmail.com"
+        .row
+      .col-md-4
+        Privacy policy
+        .row
+        Terms and conditions
+      .col-md-4
+        About us
+        .row
+          = link_to "Teach on Udemy", new_course_path
+%br
