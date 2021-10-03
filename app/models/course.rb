@@ -9,7 +9,7 @@ class Course < ApplicationRecord
   belongs_to :user
 
   def to_s
-    title
+    titles
   end
 
   has_rich_text :description
